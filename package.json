@@ -1,6 +1,6 @@
 {
   "name": "b64-to-file",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "convert file base64 string to object File",
   "main": "index.js",
   "scripts": {
