@@ -1,0 +1,26 @@
+{
+  "name": "b64-to-file",
+  "version": "1.0.3",
+  "description": "convert file base64 string to object File",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "base64",
+    "object file",
+    "image converter",
+    "convert file"
+  ],
+  "author": "fdlzmi",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadlulazmi/b64-to-file.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fadlulazmi/b64-to-file/issues"
+  },
+  "homepage": "https://github.com/fadlulazmi/b64-to-file#readme"
+}
