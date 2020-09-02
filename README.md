@@ -19,7 +19,7 @@ const convertedFile = b64ToFile(myBase64, fileName)
     File {
         name: 'myFile',
         size: 1000203,      // (example)
-        mime: 'png',        // (example)
+        type: 'png',        // (example)
         ...
     }
 ```
