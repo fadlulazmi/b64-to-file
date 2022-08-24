@@ -3,8 +3,8 @@
  * @param {String} base64 
  * @param {String} filename 
  */
-export function b64toFile(base64, filename) {
-    let arr = base64.split(','),
+function b64toFile(base64, filename) {
+    var arr = base64.split(','),
       mime = arr[0].match(/:(.*?);/)[1],
       bstr = atob(arr[1]),
       n = bstr.length,
@@ -16,3 +16,5 @@ export function b64toFile(base64, filename) {
   
     return new File([u8arr], filename, { type: mime });
   }
+
+module.exports = { b64toFile };
